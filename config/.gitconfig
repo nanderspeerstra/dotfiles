@@ -1,0 +1,24 @@
+[user]
+	name = Nander Speerstra
+	email = 6020091+nanderspeerstra@users.noreply.github.com
+
+[safe]
+	directory = *
+
+[credential]
+	helper = store
+
+[init]
+	defaultBranch = main
+
+[grep]
+	lineNumber = true
+
+[help]
+	autocorrect = 1
+
+[color]
+	ui = auto
+
+[push]
+	autoSetupRemote = true

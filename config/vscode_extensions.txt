@@ -1,0 +1,9 @@
+njpwerner.autodocstring
+ms-azuretools.azure-functions
+ms-azure-devops.azure-pipelines
+ms-azuretools.azure-storage
+formulahendry.code-runner
+ms-python.python
+ms-python.vscode-pylance
+mikael.ruff
+sandy081.vscode-pets

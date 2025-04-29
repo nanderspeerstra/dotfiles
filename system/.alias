@@ -1,0 +1,31 @@
+# Shortcuts
+alias reload="source ~/.bash_profile"
+alias _="sudo"
+
+# Movement
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"  # Go to previous dir with -
+
+# git
+alias ga='git add'
+alias gac='git add . && git commit -m '
+alias gc='git checkout'
+alias gcb='git checkout -b'
+alias gdc='git diff --cached'
+alias gpl='git pull'
+alias gph='git push'
+alias gc='git checkout'
+alias gcm='git commit -m'
+alias gcmn='git commit --no-verify -m'
+alias gcp='git checkout production'
+alias gmp='git merge production'
+alias gmd='git merge development'
+alias gs='git status'
+alias gsh='git stash'
+alias gshp='git stash pop'
+
+alias pycclean='find . \( -type f -name "*.py[co]" -o -type d -name "__pycache__" \) -delete && echo "Removed pycs and __pycache__"'
+alias pyttests='python -m pytest tests/ -v'
